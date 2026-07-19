@@ -1,11 +1,41 @@
-node_modules/
-dist/
-.env
-.env.local
-.env*
-!.env.example
+# ===========================
+# Root Monorepo .gitignore
+# ===========================
+
+# ---- Frontend ----
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.*
+!frontend/.env.example
+frontend/.DS_Store
+frontend/build/
+frontend/coverage/
+frontend/uploads/
+
+# ---- Backend ----
+backend/.env
+backend/.venv
+backend/env/
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+backend/*.py[cod]
+backend/*.db
+backend/*.sqlite3
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/uploads/
+backend/*.log
+backend/dist/
+
+# ---- OS / Editor ----
 .DS_Store
+Thumbs.db
 *.log
-build/
-coverage/
-uploads/
+.idea/
+.vscode/
+*.swp
+*.swo
