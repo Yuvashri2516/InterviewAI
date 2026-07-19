@@ -1,0 +1,6 @@
+{
+  "name": "InterviewAI",
+  "description": "Premium AI-powered interview preparation and resume evaluation platform.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
