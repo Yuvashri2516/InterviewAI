@@ -8,7 +8,7 @@ from datetime import datetime, timezone
 from sqlalchemy.orm import Session
 
 from app.core.security import get_password_hash
-from app.models.user import User
+from models.user import User
 from app.schemas.user import UserCreate, UserUpdate
 
 

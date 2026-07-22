@@ -10,7 +10,7 @@ from fastapi.responses import Response
 from sqlalchemy.orm import Session
 
 from app.api.deps import get_current_user, get_db
-from app.models.user import User
+from models.user import User
 from app.services.report_service import ReportService
 
 router = APIRouter()

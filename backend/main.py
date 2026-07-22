@@ -10,7 +10,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from app.api.v1 import api_router
+from routers import api_router
 from app.core.config import settings
 from app.core.exceptions import register_exception_handlers
 from app.middleware.request_logging import RequestLoggingMiddleware

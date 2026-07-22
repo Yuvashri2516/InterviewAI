@@ -10,7 +10,7 @@ from sqlalchemy.orm import Session
 
 from app.core.exceptions import AuthenticationError
 from app.core.security import create_access_token, create_refresh_token, verify_password, verify_token
-from app.models.user import User
+from models.user import User
 from app.repositories.user_repo import UserRepository
 from app.schemas.user import TokenWithRefresh
 

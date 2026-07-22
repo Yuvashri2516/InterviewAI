@@ -5,7 +5,7 @@ from typing import Sequence
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.models.resume import Resume
+from models.resume import Resume
 from app.schemas.resume import ResumeCreate
 
 

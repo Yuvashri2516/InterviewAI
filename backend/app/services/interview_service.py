@@ -9,7 +9,7 @@ from typing import Any
 from sqlalchemy.orm import Session
 
 from app.core.exceptions import BadRequestError, NotFoundError
-from app.models.interview import Interview
+from models.interview import Interview
 from app.repositories.interview_repo import InterviewRepository
 from app.repositories.resume_repo import ResumeRepository
 from app.schemas.interview import AnswerSubmission, InterviewCreate

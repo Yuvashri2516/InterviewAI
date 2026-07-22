@@ -22,7 +22,7 @@ except ImportError:
     docx = None
 
 from app.core.config import settings
-from app.models.resume import Resume
+from models.resume import Resume
 from app.schemas.resume import ResumeCreate
 from app.repositories.resume_repo import ResumeRepository
 

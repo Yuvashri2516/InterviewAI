@@ -8,7 +8,7 @@ from datetime import datetime, timedelta, timezone
 from sqlalchemy import func
 from sqlalchemy.orm import Session
 
-from app.models.interview import Interview, Question
+from models.interview import Interview, Question
 
 
 class AnalyticsService:

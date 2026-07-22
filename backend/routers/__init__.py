@@ -1,11 +1,11 @@
 from fastapi import APIRouter
 
-from app.api.v1.auth import router as auth_router
-from app.api.v1.users import router as users_router
-from app.api.v1.resumes import router as resumes_router
-from app.api.v1.interviews import router as interviews_router
-from app.api.v1.reports import router as reports_router
-from app.api.v1.analytics import router as analytics_router
+from routers.auth import router as auth_router
+from routers.users import router as users_router
+from routers.resumes import router as resumes_router
+from routers.interviews import router as interviews_router
+from routers.reports import router as reports_router
+from routers.analytics import router as analytics_router
 
 api_router = APIRouter()
 api_router.include_router(auth_router, prefix="/auth", tags=["Auth"])

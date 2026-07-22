@@ -6,7 +6,7 @@ from __future__ import annotations
 from sqlalchemy.orm import Session
 
 from app.core.exceptions import DuplicateError, NotFoundError
-from app.models.user import User
+from models.user import User
 from app.repositories.user_repo import UserRepository
 from app.schemas.user import UserCreate, UserUpdate
 

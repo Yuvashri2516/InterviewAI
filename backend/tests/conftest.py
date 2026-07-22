@@ -16,7 +16,7 @@ from app.core.config import settings
 from app.core.security import get_password_hash
 from app.database.base import Base
 from app.main import app
-from app.models.user import User
+from models.user import User
 
 # Use in-memory SQLite for testing
 os.environ["DATABASE_URL"] = "sqlite:///:memory:"

@@ -5,7 +5,7 @@ from __future__ import annotations
 
 from sqlalchemy.orm import Session
 
-from app.models.interview import Interview, Question
+from models.interview import Interview, Question
 from app.schemas.interview import InterviewCreate, QuestionCreate
 
 
